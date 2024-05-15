@@ -10,8 +10,15 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-for (let i = 2; i < count; i++) {
-  rows.push(padRow(i + 1, count));
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+let continueLoop = false;
+let done = 0;
+while (continueLoop) {
+  logic;
 }
 
 let result = "";
